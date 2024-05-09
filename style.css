@@ -42,9 +42,8 @@ html,body{
         margin-top:2vw;
     }
     #nav i{
-        font-size: 2vw;
-        font-weight: 1000;
         display: none;
+        
     }
     .content{
         height: calc(100% - 100px);
@@ -87,7 +86,7 @@ html,body{
     .left span{
         color: red;
     }
-    span:hover{
+    #nav-part2 span:hover{
         color:red;
     }
     .right{
@@ -112,10 +111,14 @@ html,body{
         #nav img{
             width: 8vw;
         }
-        #nav-part2 ,#navpart2 h2{
+        #nav-part2 h2{
             font-size:5vw;
             display: none;
             
+        }
+        #nav-part2{
+            font-size: 5vw;
+            display: none;
         }
         .left h1{
             font-size: 8vw;
